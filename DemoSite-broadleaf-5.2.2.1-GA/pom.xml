@@ -102,7 +102,6 @@
         <module>site</module>
         <module>admin</module>
         <module>api</module>
-        <module>oms</module>
-        <module>kafka</module>
+        <module>oms</module>        
     </modules>
 </project>
