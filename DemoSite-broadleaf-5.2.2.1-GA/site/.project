@@ -39,7 +39,7 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>srccodeweb</name>
+			<name>frameworkweb</name>
 			<type>2</type>
 			<location>/home/prakash/.m2/repository/org/broadleafcommerce/broadleaf-framework-web/5.2.2-GA/srccodeweb</location>
 		</link>
