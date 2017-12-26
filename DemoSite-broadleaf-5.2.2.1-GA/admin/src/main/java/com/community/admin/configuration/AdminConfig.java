@@ -4,23 +4,18 @@ import org.apache.catalina.connector.Connector;
 import org.broadleafcommerce.common.extensibility.context.merge.Merge;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerFactory;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.ImportResource;
-import org.springframework.context.annotation.Primary;
 
 import com.community.core.config.CoreConfig;
 import com.community.core.config.StringFactoryBean;
 
 import java.util.Arrays;
 import java.util.List;
-
-import javax.sql.DataSource;
 
 /**
  * @author Elbert Bautista (elbertbautista)
@@ -66,7 +61,6 @@ public class AdminConfig {
         connector.setPort(port);
         return connector;
     }
-    
 
 }
 

@@ -12,14 +12,11 @@ public class AdminApplication {
 
     @Configuration
     @EnableBroadleafAdminAutoConfiguration
-    public static class BroadleafFrameworkConfiguration {
-    	 
-    }
+    public static class BroadleafFrameworkConfiguration {}
 
     public static void main(String[] args) {
         SpringApplication.run(AdminApplication.class, args);
     }
-   
-   
+ 
 }
 
